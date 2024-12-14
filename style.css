@@ -1,18 +1,22 @@
 /* Basic Style */
+
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .info__img {
   width: 100%;
 }
+
 .info .info__more-info {
   font-family: fantasy, cursive;
 }
@@ -22,11 +26,13 @@
     text-align: center;
   }
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task-item__input,
 .task-form__input,
 .task-item__text {
@@ -34,21 +40,26 @@
   display: inline-block;
   flex-grow: 1;
 }
+
 .task-form {
   display: flex;
 }
+
 ul {
   margin: 0;
   padding: 0px;
 }
+
 li,
 h3 {
   list-style: none;
 }
+
 input,
 button {
   outline: none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -58,10 +69,15 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3a3a;
 }
+
+
+
 /* Heading */
+
 .heading,
 .add-task__heading {
   color: #333;
@@ -72,6 +88,7 @@ button {
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-item__input,
 .task-form__input {
   margin: 0;
@@ -85,21 +102,29 @@ button {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-item__input:focus,
 .task-form__input:focus {
   color: #333;
 }
 
+
+
 /* New Task */
+
 .add-task__heading {
   display: block;
   margin: 0 0 20px;
 }
+
 .task-form__input {
   width: 318px;
 }
 
+
+
 /* Task list */
+
 .task-item {
   overflow: hidden;
   padding: 20px 0;
@@ -109,6 +134,7 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+
 .task-item > * {
   vertical-align: middle;
 }
@@ -116,31 +142,41 @@ button {
 .task-item > .task-item__checkbox {
   margin: 0 10px;
 }
+
 .task-item > .task-item__text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-item > .task-item__input {
   width: 226px;
 }
+
 .task-item__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .task-item__delete-img:hover {
   transform: rotateZ(0);
 }
 
+
+
 /* Completed */
+
 #completed-tasks .task-item__text {
   text-decoration: line-through;
   color: #888;
 }
 
+
+
 /* Edit Task */
+
 .task-list .task-item .task-item__input {
   display: none;
 }
